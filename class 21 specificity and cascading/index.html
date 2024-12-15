@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        .yellow {
+            color: yellow;
+        }
+        
+        .purple {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="aqua red purple yellow">CSS Specifity</h1>
+</body>
+
+</html> -->
+
+
+<!-- So, the order of specificity is:
+
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector -->
+
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        .yellow {
+            color: yellow;
+        }
+        
+        .purple {
+            color: purple;
+        }
+        
+        [data-x=ass] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="aqua red purple yellow" data-x="ass">CSS Specifity</h1>
+</body>
+
+</html> -->
+
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        h1.yellow {
+            color: yellow;
+        }
+        
+        .purple {
+            color: purple;
+        }
+        
+        [data-x=ass] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="aqua red purple yellow" data-x="ass">CSS Specifity</h1>
+</body>
+
+</html> -->
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+        
+        .red {
+            color: red !important;
+        }
+        
+        h1.yellow {
+            color: yellow;
+        }
+        
+        .purple {
+            color: purple;
+        }
+        
+        [data-x=ass] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="aqua red purple yellow" data-x="ass">CSS Specifity</h1>
+</body>
+
+</html> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+        
+        h1.aqua {
+            color: lawngreen;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        h1.yellow {
+            color: yellow;
+        }
+        
+        .purple {
+            color: purple;
+        }
+        
+        [data-x=ass] {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="aqua red purple yellow" data-x>CSS Specifity</h1>
+</body>
+
+</html>
